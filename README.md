@@ -21,11 +21,17 @@ dcit318-assignment3-11286009/
 │   ├── *.csproj        # Project configuration
 │   ├── README.md       # Question 3 specific documentation
 │   └── bin/obj/        # Build artifacts
-└── GradingSystem/       # School Grading System ✅ COMPLETED
+├── GradingSystem/       # School Grading System ✅ COMPLETED
+│   ├── *.cs            # C# source files
+│   ├── *.csproj        # Project configuration
+│   ├── README.md       # Question 4 specific documentation
+│   ├── *.txt           # Input/Output data files
+│   └── bin/obj/        # Build artifacts
+└── InventoryRecordSystem/ # Inventory Record Management ✅ COMPLETED
     ├── *.cs            # C# source files
     ├── *.csproj        # Project configuration
-    ├── README.md       # Question 4 specific documentation
-    ├── *.txt           # Input/Output data files
+    ├── README.md       # Question 5 specific documentation
+    ├── *.json          # Data persistence files
     └── bin/obj/        # Build artifacts
 ```
 
@@ -53,6 +59,12 @@ dcit318-assignment3-11286009/
 - **Focus**: File I/O Operations, Exception Handling, Data Processing
 - **Features**: Student grade management, File processing, Report generation
 - **Technologies**: File I/O operations, Custom exceptions, LINQ, Switch expressions
+- **Status**: Fully implemented and tested
+
+### Question 5: Inventory Record Management ✅ COMPLETED
+- **Focus**: C# Records, Generics, File I/O, Data Persistence
+- **Features**: Immutable inventory records, Generic logging system, JSON persistence
+- **Technologies**: C# Records, Generics with constraints, System.Text.Json, File operations
 - **Status**: Fully implemented and tested
 
 ## How to Run
@@ -85,9 +97,16 @@ dotnet build
 dotnet run
 ```
 
+### Question 5
+```bash
+cd InventoryRecordSystem
+dotnet build
+dotnet run
+```
+
 ## Key Learning Objectives Demonstrated
 
-1. **Record Types**: Immutable data structures with value equality
+1. **Record Types**: Immutable data structures with value equality and positional syntax
 2. **Interface Implementation**: Polymorphic behavior through contracts
 3. **Sealed Classes**: Inheritance control and design intent
 4. **Virtual Methods**: Extensible base class functionality
@@ -98,7 +117,9 @@ dotnet run
 9. **File I/O Operations**: Reading from and writing to files
 10. **Data Processing**: CSV parsing, validation, and report generation
 11. **Data Integrity**: Validation and error handling
-12. **Modern C# Features**: Latest language constructs and best practices
+12. **JSON Serialization**: Data persistence with System.Text.Json
+13. **Factory Pattern**: Object creation with validation
+14. **Modern C# Features**: Latest language constructs and best practices
 
 ## Author
 - **Student ID**: 11286009

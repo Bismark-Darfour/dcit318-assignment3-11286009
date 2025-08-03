@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "quantity": 25,
+    "dateAdded": "2025-07-04T23:20:14.938665+00:00",
+    "ageDays": 30,
+    "status": "Normal Stock"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Mechanical Keyboard",
+    "quantity": 15,
+    "dateAdded": "2025-07-14T23:20:14.949704+00:00",
+    "ageDays": 20,
+    "status": "Normal Stock"
+  },
+  {
+    "id": 3,
+    "name": "4K Ultra HD Monitor",
+    "quantity": 8,
+    "dateAdded": "2025-07-19T23:20:14.949705+00:00",
+    "ageDays": 15,
+    "status": "Low Stock"
+  },
+  {
+    "id": 4,
+    "name": "USB-C Fast Charging Cable",
+    "quantity": 50,
+    "dateAdded": "2025-07-24T23:20:14.949705+00:00",
+    "ageDays": 10,
+    "status": "Normal Stock"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Mouse",
+    "quantity": 0,
+    "dateAdded": "2025-07-29T23:20:14.949705+00:00",
+    "ageDays": 5,
+    "status": "Out of Stock"
+  },
+  {
+    "id": 6,
+    "name": "Laptop Stand",
+    "quantity": 12,
+    "dateAdded": "2025-07-31T23:20:14.949705+00:00",
+    "ageDays": 3,
+    "status": "Normal Stock"
+  },
+  {
+    "id": 7,
+    "name": "Webcam HD 1080p",
+    "quantity": 7,
+    "dateAdded": "2025-08-02T23:20:14.949706+00:00",
+    "ageDays": 1,
+    "status": "Low Stock"
+  }
+]
