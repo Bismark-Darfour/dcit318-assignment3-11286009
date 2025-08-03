@@ -16,10 +16,16 @@ dcit318-assignment3-11286009/
 │   ├── *.csproj        # Project configuration
 │   ├── README.md       # Question 2 specific documentation
 │   └── bin/obj/        # Build artifacts
-└── WarehouseSystem/     # Warehouse Inventory System ✅ COMPLETED
+├── WarehouseSystem/     # Warehouse Inventory System ✅ COMPLETED
+│   ├── *.cs            # C# source files
+│   ├── *.csproj        # Project configuration
+│   ├── README.md       # Question 3 specific documentation
+│   └── bin/obj/        # Build artifacts
+└── GradingSystem/       # School Grading System ✅ COMPLETED
     ├── *.cs            # C# source files
     ├── *.csproj        # Project configuration
-    ├── README.md       # Question 3 specific documentation
+    ├── README.md       # Question 4 specific documentation
+    ├── *.txt           # Input/Output data files
     └── bin/obj/        # Build artifacts
 ```
 
@@ -41,6 +47,12 @@ dcit318-assignment3-11286009/
 - **Focus**: Collections, Generics, Exception Handling, Safe Operations
 - **Features**: Multi-type inventory, Custom exceptions, Generic repository with constraints
 - **Technologies**: C# Collections (Dictionary, List), Generics with constraints, Custom exceptions
+- **Status**: Fully implemented and tested
+
+### Question 4: School Grading System ✅ COMPLETED
+- **Focus**: File I/O Operations, Exception Handling, Data Processing
+- **Features**: Student grade management, File processing, Report generation
+- **Technologies**: File I/O operations, Custom exceptions, LINQ, Switch expressions
 - **Status**: Fully implemented and tested
 
 ## How to Run
@@ -66,6 +78,13 @@ dotnet build
 dotnet run
 ```
 
+### Question 4
+```bash
+cd GradingSystem
+dotnet build
+dotnet run
+```
+
 ## Key Learning Objectives Demonstrated
 
 1. **Record Types**: Immutable data structures with value equality
@@ -76,8 +95,10 @@ dotnet run
 6. **Generic Constraints**: Restricting generic types to specific interfaces
 7. **Collections Management**: List, Dictionary, and LINQ operations
 8. **Exception Handling**: Custom exceptions and safe error management
-9. **Data Integrity**: Validation and error handling
-10. **Modern C# Features**: Latest language constructs and best practices
+9. **File I/O Operations**: Reading from and writing to files
+10. **Data Processing**: CSV parsing, validation, and report generation
+11. **Data Integrity**: Validation and error handling
+12. **Modern C# Features**: Latest language constructs and best practices
 
 ## Author
 - **Student ID**: 11286009
