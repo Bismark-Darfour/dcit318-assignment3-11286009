@@ -11,10 +11,15 @@ dcit318-assignment3-11286009/
 │   ├── *.csproj        # Project configuration
 │   ├── README.md       # Question 1 specific documentation
 │   └── bin/obj/        # Build artifacts
-└── HealthcareSystem/    # Healthcare Management System ✅ COMPLETED
+├── HealthcareSystem/    # Healthcare Management System ✅ COMPLETED
+│   ├── *.cs            # C# source files
+│   ├── *.csproj        # Project configuration
+│   ├── README.md       # Question 2 specific documentation
+│   └── bin/obj/        # Build artifacts
+└── WarehouseSystem/     # Warehouse Inventory System ✅ COMPLETED
     ├── *.cs            # C# source files
     ├── *.csproj        # Project configuration
-    ├── README.md       # Question 2 specific documentation
+    ├── README.md       # Question 3 specific documentation
     └── bin/obj/        # Build artifacts
 ```
 
@@ -30,6 +35,12 @@ dcit318-assignment3-11286009/
 - **Focus**: Collections, Generics, Type Safety, Data Management
 - **Features**: Patient records, Prescription tracking, Generic repository pattern
 - **Technologies**: C# Collections (List, Dictionary), Generics, LINQ
+- **Status**: Fully implemented and tested
+
+### Question 3: Warehouse Inventory System ✅ COMPLETED
+- **Focus**: Collections, Generics, Exception Handling, Safe Operations
+- **Features**: Multi-type inventory, Custom exceptions, Generic repository with constraints
+- **Technologies**: C# Collections (Dictionary, List), Generics with constraints, Custom exceptions
 - **Status**: Fully implemented and tested
 
 ## How to Run
@@ -48,6 +59,13 @@ dotnet build
 dotnet run
 ```
 
+### Question 3
+```bash
+cd WarehouseSystem
+dotnet build
+dotnet run
+```
+
 ## Key Learning Objectives Demonstrated
 
 1. **Record Types**: Immutable data structures with value equality
@@ -55,9 +73,11 @@ dotnet run
 3. **Sealed Classes**: Inheritance control and design intent
 4. **Virtual Methods**: Extensible base class functionality
 5. **Generic Programming**: Type-safe and reusable code with generics
-6. **Collections Management**: List, Dictionary, and LINQ operations
-7. **Data Integrity**: Validation and error handling
-8. **Modern C# Features**: Latest language constructs and best practices
+6. **Generic Constraints**: Restricting generic types to specific interfaces
+7. **Collections Management**: List, Dictionary, and LINQ operations
+8. **Exception Handling**: Custom exceptions and safe error management
+9. **Data Integrity**: Validation and error handling
+10. **Modern C# Features**: Latest language constructs and best practices
 
 ## Author
 - **Student ID**: 11286009
