@@ -11,7 +11,11 @@ dcit318-assignment3-11286009/
 │   ├── *.csproj        # Project configuration
 │   ├── README.md       # Question 1 specific documentation
 │   └── bin/obj/        # Build artifacts
-└── Question2/          # (Ready for implementation)
+└── HealthcareSystem/    # Healthcare Management System ✅ COMPLETED
+    ├── *.cs            # C# source files
+    ├── *.csproj        # Project configuration
+    ├── README.md       # Question 2 specific documentation
+    └── bin/obj/        # Build artifacts
 ```
 
 ## Questions Overview
@@ -22,8 +26,11 @@ dcit318-assignment3-11286009/
 - **Technologies**: C# Records, Interfaces, Sealed Classes, Virtual Methods
 - **Status**: Fully implemented and tested
 
-### Question 2: (Pending)
-- Will be implemented in the `Question2/` folder to keep solutions organized
+### Question 2: Healthcare Management System ✅ COMPLETED
+- **Focus**: Collections, Generics, Type Safety, Data Management
+- **Features**: Patient records, Prescription tracking, Generic repository pattern
+- **Technologies**: C# Collections (List, Dictionary), Generics, LINQ
+- **Status**: Fully implemented and tested
 
 ## How to Run
 
@@ -34,14 +41,23 @@ dotnet build
 dotnet run
 ```
 
+### Question 2
+```bash
+cd HealthcareSystem
+dotnet build
+dotnet run
+```
+
 ## Key Learning Objectives Demonstrated
 
 1. **Record Types**: Immutable data structures with value equality
 2. **Interface Implementation**: Polymorphic behavior through contracts
 3. **Sealed Classes**: Inheritance control and design intent
 4. **Virtual Methods**: Extensible base class functionality
-5. **Data Integrity**: Validation and error handling
-6. **Modern C# Features**: Latest language constructs and best practices
+5. **Generic Programming**: Type-safe and reusable code with generics
+6. **Collections Management**: List, Dictionary, and LINQ operations
+7. **Data Integrity**: Validation and error handling
+8. **Modern C# Features**: Latest language constructs and best practices
 
 ## Author
 - **Student ID**: 11286009
